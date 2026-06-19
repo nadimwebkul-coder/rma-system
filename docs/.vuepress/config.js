@@ -4,7 +4,7 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  base: 'https://github.com/nadimwebkul-coder/rma-system.git',
+  base: '/rma-system/',
   lang: 'en-US',
 
   title: 'VuePress',
