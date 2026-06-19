@@ -91,9 +91,9 @@
 <p>If No is selected, the customer will not be able to generate another RMA request once it is declined by the admin.</p>
 <p><strong>New RMA Message to Customer</strong> – Enter the default message for the customer, when the RMA is generated successfully.</p>
 <p><strong>Allowed File Extension –</strong> If the customer wants to add an attachment then the allowed file extensions are jpg, jpeg, and pdf.</p>
-<p>**Allowed Payment Method For RMA – The admin will select the payment methods for which the customer can request RMA. Only the selected payment methods will be visible on the front end.</p>
+<p><strong>Allowed Payment Method For RMA –</strong> The admin will select the payment methods for which the customer can request RMA. Only the selected payment methods will be visible on the front end.</p>
 <hr>
-<h2 id="advanced-configuration-of-product-return-rma" tabindex="-1"><a class="header-anchor" href="#advanced-configuration-of-product-return-rma"><span>**Advanced Configuration of Product Return RMA</span></a></h2>
+<h2 id="advanced-configuration-of-product-return-rma" tabindex="-1"><a class="header-anchor" href="#advanced-configuration-of-product-return-rma"><span>Advanced Configuration of Product Return RMA</span></a></h2>
 <p>Under <code v-pre>RMA System &gt; RMA Advanced Configuration</code>, the admin can configure newly introduced automation, wallet refund, and fraud detection features:</p>
 <h3 id="_1-automated-workflow-configuration" tabindex="-1"><a class="header-anchor" href="#_1-automated-workflow-configuration"><span>1. Automated Workflow Configuration</span></a></h3>
 <p>This setting allows the admin to set up automatic logic gates to authorize returns instantly, saving human verification time.</p>
@@ -230,7 +230,7 @@
 <p>The admin can set the field <strong>Allowed for RMA generation</strong> as <strong>Yes</strong> or <strong>No</strong>.</p>
 <p><strong>Note:</strong> If a parent category is set as not <strong>Allowed for the RMA generation</strong>. As a result, its subcategory’s product will not be allowed for the RMA generation.</p>
 <hr>
-<h2 id="product-return-rma-system-management" tabindex="-1"><a class="header-anchor" href="#product-return-rma-system-management"><span>**Product Return RMA System Management</span></a></h2>
+<h2 id="product-return-rma-system-management" tabindex="-1"><a class="header-anchor" href="#product-return-rma-system-management"><span>Product Return RMA System Management</span></a></h2>
 <p>Under the RMA System side panel menu option, the admin will find multiple sub-menu options for the RMA.</p>
 <p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-dashboard.webp" alt="Magento 2 RMA menu option"></p>
 <h3 id="create-rma" tabindex="-1"><a class="header-anchor" href="#create-rma"><span>Create RMA</span></a></h3>
@@ -319,7 +319,7 @@
 <p>Click on <strong>Add a new rule</strong> and create the rule for RMA.</p>
 <p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/testdevmage.com_12411_admin_rmasystem_rules_edit_id_1_key_eee69683b46d1ff5cf0cae6424251876c2cddcc6e63adb7aacb684fa1036272f_webkul-store.png" alt="RMA system"></p>
 <p>Enter the title of the rule, description, status, and default option. The admin can also enter the resolution period time in days for return and exchange.</p>
-<h3 id="create-a-new-rma-request" tabindex="-1"><a class="header-anchor" href="#create-a-new-rma-request"><span>**Create a New RMA Request</span></a></h3>
+<h3 id="create-a-new-rma-request" tabindex="-1"><a class="header-anchor" href="#create-a-new-rma-request"><span>Create a New RMA Request</span></a></h3>
 <p>The customer can navigate the RMA section from My Account. Here the customer can create a new RMA by clicking the ‘<strong>Request New RMA</strong>‘ button.</p>
 <p>The customer can also see all the RMA created and filter them using various options.</p>
 <p><strong>Cancel</strong> – If the customer wants to withdraw the RMA request, the customer can simply click the <strong>Cancel</strong> link and confirm. The RMA request will be canceled.</p>
@@ -344,7 +344,7 @@
 <p><strong>Additional Information</strong> – The customer can provide some additional information with the RMA request. The custom fields are also visible here.</p>
 <p><strong>Pickup Location</strong> – choose the pickup location in the city or outside the city.</p>
 <p>Option to attach a file (<strong>U****pload images)</strong> with the RMA request.</p>
-<h3 id="quick-order-cancellation" tabindex="-1"><a class="header-anchor" href="#quick-order-cancellation"><span>** Quick Order Cancellation</span></a></h3>
+<h3 id="quick-order-cancellation" tabindex="-1"><a class="header-anchor" href="#quick-order-cancellation"><span>Quick Order Cancellation</span></a></h3>
 <p>Customers can navigate to the RMA section from <strong>My Account</strong>. The module introduces a <strong>Quick Order Cancellation / Return</strong> feature that allows customers to manage cancellations and returns directly from their dashboard.</p>
 <p><img src="/Rmasystem/image/cancel_order/order_cancel_1.png" alt="Customer Order details page Cancel Action"></p>
 <p>On the <strong>My Orders</strong> grid, a <strong>Cancel</strong> action button is displayed next to the traditional options. This action is also available on the <strong>Order Detail</strong> pages.</p>
@@ -374,7 +374,7 @@
 <p>The print Shipping Label button will be visible only after the admin approves the RMA request for exchange. The customer can then print the shipping label for returning the item.</p>
 <p>After clicking the Print shipping label, the customer will be redirected to the print page.</p>
 <p><a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/print-shipping-slip.png" target="_blank" rel="noopener noreferrer">![print shipping slip](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/print-shipping-slip.png)</a></p>
-<h3 id="guest-login-for-rma" tabindex="-1"><a class="header-anchor" href="#guest-login-for-rma"><span>**Guest Login for RMA</span></a></h3>
+<h3 id="guest-login-for-rma" tabindex="-1"><a class="header-anchor" href="#guest-login-for-rma"><span>Guest Login for RMA</span></a></h3>
 <p>Magento 2 order Return extension provides RMA for the guest user also. You just need to click the <strong>RMA Guest Login</strong> link in the footer section.</p>
 <p>After clicking on this link you just need to enter their correct <strong>Order ID</strong> and <strong>Email</strong>.<br>
 <a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/guest-login.png" target="_blank" rel="noopener noreferrer">![Magento 2 Product Return RMA](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/guest-login.png)</a></p>
@@ -386,7 +386,7 @@
 <p><a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Guest-RMA-Form.png" target="_blank" rel="noopener noreferrer">![Guest RMA Form](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Guest-RMA-Form.png)</a></p>
 <p>After the generation of the New RMA, the Customer/Guest will receive an Email.</p>
 <p><a href="http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/email.png" target="_blank" rel="noopener noreferrer">![Magento 2 Product Return RMA](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/email.png)</a></p>
-<h3 id="manage-all-rma-requests" tabindex="-1"><a class="header-anchor" href="#manage-all-rma-requests"><span>**Manage All RMA Requests</span></a></h3>
+<h3 id="manage-all-rma-requests" tabindex="-1"><a class="header-anchor" href="#manage-all-rma-requests"><span>Manage All RMA Requests</span></a></h3>
 <p>The admin can view all RMA requests ( Registered Customer and Guest Users) under <strong>RMA System&gt;Manage All RMA</strong> like the below image.</p>
 <p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-requests-1-e1714397250751.webp" alt="rmaa request
 "></p>

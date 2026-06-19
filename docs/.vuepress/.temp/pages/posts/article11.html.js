@@ -1,16 +1,3 @@
 import comp from "/home/users/nadim.ahmad/Downloads/vuepress/vuepress-starter/docs/.vuepress/.temp/pages/posts/article11.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/article11.html\",\"title\":\"Article 11\",\"lang\":\"en-US\",\"frontmatter\":{\"date\":\"2022-01-11T00:00:00.000Z\",\"category\":[\"Category A\",\"Category B\"],\"tag\":[\"tag C\",\"tag D\"]},\"headers\":[{\"level\":2,\"title\":\"Heading 2\",\"slug\":\"heading-2\",\"link\":\"#heading-2\",\"children\":[{\"level\":3,\"title\":\"Heading 3\",\"slug\":\"heading-3\",\"link\":\"#heading-3\",\"children\":[]}]}],\"git\":{},\"filePathRelative\":\"posts/article11.md\",\"excerpt\":\"\\n<h2>Heading 2</h2>\\n<p>Here is the content.</p>\\n<h3>Heading 3</h3>\\n<p>Here is the content.</p>\\n\"}")
+const data = JSON.parse("{\"path\":\"/posts/article11.html\",\"title\":\"Article 11\",\"lang\":\"en-US\",\"frontmatter\":{\"date\":\"2022-01-11T00:00:00.000Z\",\"category\":[\"Category A\",\"Category B\"],\"tag\":[\"tag C\",\"tag D\"]},\"headers\":[{\"level\":2,\"title\":\"Heading 2\",\"slug\":\"heading-2\",\"link\":\"#heading-2\",\"children\":[{\"level\":3,\"title\":\"Heading 3\",\"slug\":\"heading-3\",\"link\":\"#heading-3\",\"children\":[]}]}],\"git\":{\"updatedTime\":1781871567000,\"contributors\":[{\"name\":\"Nadim Ahmad\",\"username\":\"\",\"email\":\"nadimahmad.mg322@webkul.in\",\"commits\":1}],\"changelog\":[{\"hash\":\"352528ada77dce5d02ae49abeb40ef0052c2b249\",\"time\":1781871567000,\"email\":\"nadimahmad.mg322@webkul.in\",\"author\":\"Nadim Ahmad\",\"message\":\"feat: setup VuePress documentation with RMA guide\"}]},\"filePathRelative\":\"posts/article11.md\",\"excerpt\":\"\\n<h2>Heading 2</h2>\\n<p>Here is the content.</p>\\n<h3>Heading 3</h3>\\n<p>Here is the content.</p>\\n\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

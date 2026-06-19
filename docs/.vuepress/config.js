@@ -7,41 +7,39 @@ export default defineUserConfig({
   base: '/rma-system/',
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'Webkul',
+  description: 'User Guide and Documentation for Magento 2 Product Return RMA Extension by Webkul',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/Rmasystem/image/Webkul icon.jpg',
 
     navbar: [
-      '/',
       {
-        text: 'RMA User Guide',
+        text: 'Home',
+        link: '/',
+      },
+      {
+        text: 'User Guide',
         link: '/adobe-commerce-product-return-rma.html',
       },
       {
-        text: 'Article',
-        link: '/article/',
+        text: 'Configuration',
+        link: '/adobe-commerce-product-return-rma.html#configuration-of-product-return-rma',
       },
       {
-        text: 'Category',
-        link: '/category/',
+        text: 'Advanced Rules',
+        link: '/adobe-commerce-product-return-rma.html#advanced-configuration-of-product-return-rma',
       },
       {
-        text: 'Tag',
-        link: '/tag/',
-      },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
+        text: 'Support',
+        link: 'https://webkul.uvdesk.com/',
       },
     ],
 
     sidebar: [
       {
-        text: 'Guide',
+        text: 'RMA User Guide',
         children: [
-          '/get-started.md',
           '/adobe-commerce-product-return-rma.md',
         ],
       },
