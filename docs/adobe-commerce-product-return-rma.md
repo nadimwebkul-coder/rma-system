@@ -264,7 +264,7 @@ The admin can set the field **Allowed for RMA generation** as **Yes** or **No**.
 
 ---
 
-## **Product Return RMA System Management
+## Product Return RMA System Management
 
 Under the RMA System side panel menu option, the admin will find multiple sub-menu options for the RMA.
 
@@ -422,7 +422,7 @@ Click on **Add a new rule** and create the rule for RMA.
 
 Enter the title of the rule, description, status, and default option. The admin can also enter the resolution period time in days for return and exchange.
 
-### **Create a New RMA Request
+### Create a New RMA Request
 
 The customer can navigate the RMA section from My Account. Here the customer can create a new RMA by clicking the ‘**Request New RMA**‘ button.
 
@@ -460,7 +460,7 @@ Select **Product Delivery Status** as **Delivered** or Not **Delivered**. If the
 
 Option to attach a file (**U****pload images)** with the RMA request.
 
-### ** Quick Order Cancellation
+### Quick Order Cancellation
 
 Customers can navigate to the RMA section from **My Account**. The module introduces a **Quick Order Cancellation / Return** feature that allows customers to manage cancellations and returns directly from their dashboard.
 
@@ -506,7 +506,7 @@ After clicking the Print shipping label, the customer will be redirected to the 
 
 [!\[print shipping slip\](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/print-shipping-slip.png)](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/print-shipping-slip.png)
 
-### **Guest Login for RMA
+### Guest Login for RMA
 
 Magento 2 order Return extension provides RMA for the guest user also. You just need to click the **RMA Guest Login** link in the footer section.
 
@@ -529,7 +529,7 @@ After the generation of the New RMA, the Customer/Guest will receive an Email.
 
 [!\[Magento 2 Product Return RMA\](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/email.png)](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/email.png)
 
-### **Manage All RMA Requests
+### Manage All RMA Requests
 
 The admin can view all RMA requests ( Registered Customer and Guest Users) under **RMA System>Manage All RMA** like the below image.
 

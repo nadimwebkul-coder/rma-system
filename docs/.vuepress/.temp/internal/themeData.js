@@ -1,14 +1,1 @@
-export const themeData = JSON.parse("{\"logo\":\"https://vuejs.press/images/hero.png\",\"navbar\":[\"/\",{\"text\":\"RMA User Guide\",\"link\":\"/adobe-commerce-product-return-rma.html\"},{\"text\":\"Article\",\"link\":\"/article/\"},{\"text\":\"Category\",\"link\":\"/category/\"},{\"text\":\"Tag\",\"link\":\"/tag/\"},{\"text\":\"Timeline\",\"link\":\"/timeline/\"}],\"sidebar\":[{\"text\":\"Guide\",\"children\":[\"/get-started.md\",\"/adobe-commerce-product-return-rma.md\"]}],\"locales\":{\"/\":{\"selectLanguageName\":\"English\"}},\"colorMode\":\"auto\",\"colorModeSwitch\":true,\"repo\":null,\"selectLanguageText\":\"Languages\",\"selectLanguageAriaLabel\":\"Select language\",\"sidebarDepth\":2,\"editLink\":true,\"editLinkText\":\"Edit this page\",\"lastUpdated\":true,\"contributors\":true,\"contributorsText\":\"Contributors\",\"notFound\":[\"There's nothing here.\",\"How did we get here?\",\"That's a Four-Oh-Four.\",\"Looks like we've got some broken links.\"],\"backToHome\":\"Take me home\",\"openInNewWindow\":\"open in new window\",\"toggleColorMode\":\"toggle color mode\",\"toggleSidebar\":\"toggle sidebar\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
-}
+export const themeData = JSON.parse("{\"logo\":\"/Rmasystem/image/Webkul icon.jpg\",\"navbar\":[{\"text\":\"Home\",\"link\":\"/\"},{\"text\":\"User Guide\",\"link\":\"/adobe-commerce-product-return-rma.html\"},{\"text\":\"Configuration\",\"link\":\"/adobe-commerce-product-return-rma.html#configuration-of-product-return-rma\"},{\"text\":\"Advanced Rules\",\"link\":\"/adobe-commerce-product-return-rma.html#advanced-configuration-of-product-return-rma\"},{\"text\":\"Support\",\"link\":\"https://webkul.uvdesk.com/\"}],\"sidebar\":[{\"text\":\"RMA User Guide\",\"children\":[\"/adobe-commerce-product-return-rma.md\"]}],\"locales\":{\"/\":{\"selectLanguageName\":\"English\"}},\"colorMode\":\"auto\",\"colorModeSwitch\":true,\"repo\":null,\"selectLanguageText\":\"Languages\",\"selectLanguageAriaLabel\":\"Select language\",\"sidebarDepth\":2,\"editLink\":true,\"editLinkText\":\"Edit this page\",\"lastUpdated\":true,\"contributors\":true,\"contributorsText\":\"Contributors\",\"notFound\":[\"There's nothing here.\",\"How did we get here?\",\"That's a Four-Oh-Four.\",\"Looks like we've got some broken links.\"],\"backToHome\":\"Take me home\",\"openInNewWindow\":\"open in new window\",\"toggleColorMode\":\"toggle color mode\",\"toggleSidebar\":\"toggle sidebar\"}")
