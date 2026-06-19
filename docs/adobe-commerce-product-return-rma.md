@@ -155,11 +155,11 @@ If No is selected, the customer will not be able to generate another RMA request
 
 **Allowed File Extension –** If the customer wants to add an attachment then the allowed file extensions are jpg, jpeg, and pdf.
 
-**Allowed Payment Method For RMA – The admin will select the payment methods for which the customer can request RMA. Only the selected payment methods will be visible on the front end.
+**Allowed Payment Method For RMA –** The admin will select the payment methods for which the customer can request RMA. Only the selected payment methods will be visible on the front end.
 
 ---
 
-## **Advanced Configuration of Product Return RMA
+## Advanced Configuration of Product Return RMA
 
 Under `RMA System > RMA Advanced Configuration`, the admin can configure newly introduced automation, wallet refund, and fraud detection features:
 
