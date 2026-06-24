@@ -127,7 +127,7 @@
 <h3 id="manage-all-rma-analytics-dashboard" tabindex="-1"><a class="header-anchor" href="#manage-all-rma-analytics-dashboard"><span>Manage All RMA &amp; Analytics Dashboard</span></a></h3>
 <p>Now the admin can check the dashboard of the RMA with comprehensive, advanced RMA analytics and reports.</p>
 <p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_1.png" alt="RMA Analytics Dashboard Overall Stats"></p>
-<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_2.png" alt="RMA Analytics Dashboard Overall Stats"></p>
+<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard2.png" alt="RMA Analytics Dashboard Overall Stats"></p>
 <p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_3.png" alt="RMA Analytics Dashboard Overall Stats"></p>
 <p>The dashboard includes detailed tracking grids for:</p>
 <ul>

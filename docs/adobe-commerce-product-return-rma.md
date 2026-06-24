@@ -294,7 +294,7 @@ Now the admin can check the dashboard of the RMA with comprehensive, advanced RM
 
 ![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_1.png)
 
-![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_2.png)
+![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard2.png)
 
 ![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_3.png)
 
