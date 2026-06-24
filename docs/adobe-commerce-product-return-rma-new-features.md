@@ -138,15 +138,7 @@ Configure automated limits to block fraudulent returns and flag high-risk custom
 Now the admin can check the dashboard of the RMA with comprehensive, advanced RMA analytics and reports.
 
 
-![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_1.png)
-
-
-
-![Analytics Report - Return rate & quantities over time](/Rmasystem/image/analytics_dashboard/analytics_dashboard_2.png)
-
-
-
-![Analytics Report - Resolution type distribution](/Rmasystem/image/analytics_dashboard/analytics_dashboard_3.png)
+![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard.png)
 
 
 The dashboard includes detailed tracking grids for:
@@ -201,13 +193,9 @@ The dashboard includes detailed tracking grids for:
 Customers can navigate to the RMA section from **My Account**. The module introduces a **Quick Order Cancellation / Return** feature that allows customers to manage cancellations and returns directly from their dashboard.
 
 
-![Customer Order History Cancel Button](https://cdnblog.webkul.com/blog/wp-content/uploads/2026/06/cancel_order_1.png)
-
+![Customer Order details page Cancel Action](/Rmasystem/image/cancel_order/order_cancel_1.png)
 
 On the **My Orders** grid, a **Cancel** action button is displayed next to the traditional options. This action is also available on the **Order Detail** pages.
-
-
-![Customer Order details page Cancel Action](/Rmasystem/image/cancel_order/order_cancel_1.png)
 
 
 
