@@ -359,15 +359,3 @@ The module exposes full CRUD REST endpoints for third-party and mobile applicati
 ---
 
 That’s all for the new features in the Magento 2 Return extension. If you still have any issues feel free to add a ticket and let us know your views to make the module better **[http://webkul.uvdesk.com/](http://webkul.uvdesk.com/)**
-
-Current Product Version - 4.0.5
-
-Supported Framework Version - Magento 2.0.x, 2.1.x, 2.2.x, 2.3.x, 2.4.x
-
-![author-thumb](https://cdnblog.webkul.com/blog/wp-content/uploads/2024/11/nirupama-shree.webp)
-
-[nirupama shree 6 Badges](https://webkul.com/blog/author/nirupama382/)
-
-- 25 May, 2026 Updated by - Kush Mathur
-- 16 Oct, 2025 Updated by - Kuldeep Singh
-- 19 Jun, 2026 Updated by - Nadim Ahmad

@@ -286,15 +286,6 @@
 </ul>
 <hr>
 <p>That’s all for the new features in the Magento 2 Return extension. If you still have any issues feel free to add a ticket and let us know your views to make the module better <strong><a href="http://webkul.uvdesk.com/" target="_blank" rel="noopener noreferrer">http://webkul.uvdesk.com/</a></strong></p>
-<p>Current Product Version - 4.0.5</p>
-<p>Supported Framework Version - Magento 2.0.x, 2.1.x, 2.2.x, 2.3.x, 2.4.x</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/11/nirupama-shree.webp" alt="author-thumb"></p>
-<p><a href="https://webkul.com/blog/author/nirupama382/" target="_blank" rel="noopener noreferrer">nirupama shree 6 Badges</a></p>
-<ul>
-<li>25 May, 2026 Updated by - Kush Mathur</li>
-<li>16 Oct, 2025 Updated by - Kuldeep Singh</li>
-<li>19 Jun, 2026 Updated by - Nadim Ahmad</li>
-</ul>
 </div></template>
 
 
