@@ -167,7 +167,9 @@ Under `RMA System > RMA Advanced Configuration`, the admin can configure newly i
 
 This setting allows the admin to set up automatic logic gates to authorize returns instantly, saving human verification time.
 
-![Automated Workflow Configuration General Settings](/Rmasystem/image/automated_workflow/automated_workflow.png)
+![Automated Workflow Configuration General Settings](/Rmasystem/image/automated_workflow/automated_workflow_1.png)
+
+![Automated Workflow Configuration General Settings](/Rmasystem/image/automated_workflow/automated_workflow_2.png)
 
 - ***General Rules Settings***
 - **Enable Rules Engine**: Master toggle to enable/disable automated processing.
@@ -290,7 +292,11 @@ After that, tap the Create RMA button to generate the RMA as required.
 
 Now the admin can check the dashboard of the RMA with comprehensive, advanced RMA analytics and reports.
 
-![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard.png)
+![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_1.png)
+
+![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_2.png)
+
+![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_3.png)
 
 The dashboard includes detailed tracking grids for:
 - **Total refund given** (amount, total RMA requests, and total RMA products)

@@ -97,7 +97,8 @@
 <p>Under <code v-pre>RMA System &gt; RMA Advanced Configuration</code>, the admin can configure newly introduced automation, wallet refund, and fraud detection features:</p>
 <h3 id="_1-automated-workflow-configuration" tabindex="-1"><a class="header-anchor" href="#_1-automated-workflow-configuration"><span>1. Automated Workflow Configuration</span></a></h3>
 <p>This setting allows the admin to set up automatic logic gates to authorize returns instantly, saving human verification time.</p>
-<p><img src="/Rmasystem/image/automated_workflow/automated_workflow.png" alt="Automated Workflow Configuration General Settings"></p>
+<p><img src="/Rmasystem/image/automated_workflow/automated_workflow_1.png" alt="Automated Workflow Configuration General Settings"></p>
+<p><img src="/Rmasystem/image/automated_workflow/automated_workflow_2.png" alt="Automated Workflow Configuration General Settings"></p>
 <ul>
 <li>
 <p><em><strong>General Rules Settings</strong></em></p>
@@ -242,7 +243,9 @@
 <p>After that, tap the Create RMA button to generate the RMA as required.</p>
 <h3 id="manage-all-rma-analytics-dashboard" tabindex="-1"><a class="header-anchor" href="#manage-all-rma-analytics-dashboard"><span>Manage All RMA &amp; Analytics Dashboard</span></a></h3>
 <p>Now the admin can check the dashboard of the RMA with comprehensive, advanced RMA analytics and reports.</p>
-<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard.png" alt="RMA Analytics Dashboard Overall Stats"></p>
+<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_1.png" alt="RMA Analytics Dashboard Overall Stats"></p>
+<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_2.png" alt="RMA Analytics Dashboard Overall Stats"></p>
+<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_3.png" alt="RMA Analytics Dashboard Overall Stats"></p>
 <p>The dashboard includes detailed tracking grids for:</p>
 <ul>
 <li><strong>Total refund given</strong> (amount, total RMA requests, and total RMA products)</li>
