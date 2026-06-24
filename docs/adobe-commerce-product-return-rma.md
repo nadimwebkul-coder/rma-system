@@ -290,11 +290,7 @@ After that, tap the Create RMA button to generate the RMA as required.
 
 Now the admin can check the dashboard of the RMA with comprehensive, advanced RMA analytics and reports.
 
-![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard_1.png)
-
-![Analytics Report - Return rate & quantities over time](/Rmasystem/image/analytics_dashboard/analytics_dashboard_2.png)
-
-![Analytics Report - Resolution type distribution](/Rmasystem/image/analytics_dashboard/analytics_dashboard_3.png)
+![RMA Analytics Dashboard Overall Stats](/Rmasystem/image/analytics_dashboard/analytics_dashboard.png)
 
 The dashboard includes detailed tracking grids for:
 - **Total refund given** (amount, total RMA requests, and total RMA products)

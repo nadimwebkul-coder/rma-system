@@ -125,9 +125,7 @@
 <h2 id="product-return-rma-system-management" tabindex="-1"><a class="header-anchor" href="#product-return-rma-system-management"><span>Product Return RMA System Management</span></a></h2>
 <h3 id="manage-all-rma-analytics-dashboard" tabindex="-1"><a class="header-anchor" href="#manage-all-rma-analytics-dashboard"><span>Manage All RMA &amp; Analytics Dashboard</span></a></h3>
 <p>Now the admin can check the dashboard of the RMA with comprehensive, advanced RMA analytics and reports.</p>
-<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_1.png" alt="RMA Analytics Dashboard Overall Stats"></p>
-<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_2.png" alt="Analytics Report - Return rate &amp; quantities over time"></p>
-<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_3.png" alt="Analytics Report - Resolution type distribution"></p>
+<p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard.png" alt="RMA Analytics Dashboard Overall Stats"></p>
 <p>The dashboard includes detailed tracking grids for:</p>
 <ul>
 <li><strong>Total refund given</strong> (amount, total RMA requests, and total RMA products)</li>
@@ -150,9 +148,8 @@
 <hr>
 <h3 id="quick-order-cancellation" tabindex="-1"><a class="header-anchor" href="#quick-order-cancellation"><span>Quick Order Cancellation</span></a></h3>
 <p>Customers can navigate to the RMA section from <strong>My Account</strong>. The module introduces a <strong>Quick Order Cancellation / Return</strong> feature that allows customers to manage cancellations and returns directly from their dashboard.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2026/06/cancel_order_1.png" alt="Customer Order History Cancel Button"></p>
-<p>On the <strong>My Orders</strong> grid, a <strong>Cancel</strong> action button is displayed next to the traditional options. This action is also available on the <strong>Order Detail</strong> pages.</p>
 <p><img src="/Rmasystem/image/cancel_order/order_cancel_1.png" alt="Customer Order details page Cancel Action"></p>
+<p>On the <strong>My Orders</strong> grid, a <strong>Cancel</strong> action button is displayed next to the traditional options. This action is also available on the <strong>Order Detail</strong> pages.</p>
 <p><img src="/Rmasystem/image/cancel_order/order_cancel_2.png" alt="Customer Order details page Cancel Action"></p>
 <p><img src="/Rmasystem/image/cancel_order/order_cancel_3.png" alt="Customer Order details page Cancel Action"></p>
 <p>Clicking the button opens a modern, responsive RMA request and cancellation modal popup:</p>
