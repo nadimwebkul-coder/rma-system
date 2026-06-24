@@ -9,6 +9,10 @@ actions:
     link: /adobe-commerce-product-return-rma.html
     type: primary
 
+  - text: New Features
+    link: /adobe-commerce-product-return-rma-new-features.html
+    type: secondary
+
   - text: Try Live Demo
     link: https://magento2demo.webkul.in/modules-demo/?demo=Webkul_Rmasystem
     type: secondary
@@ -54,6 +58,7 @@ Monitor return frequencies and flag high-risk customers, enforcing manual review
 
 To install, configure, and manage your RMA system, refer to the following documentation sections:
 
+- **[New Features](/adobe-commerce-product-return-rma-new-features.html)**: Learn about the newly introduced RMA automation, wallet credit refunds, risk scoring, order cancellation popups, and GraphQL/REST API support.
 - **[Installation Guide](/adobe-commerce-product-return-rma.html#installation-of-product-return-rma)**: Step-by-step guide to download, upload, and compile the module.
 - **[System Configuration](/adobe-commerce-product-return-rma.html#configuration-of-product-return-rma)**: Basic settings including allowed products, order statuses, return policies, and email templates.
 - **[Advanced Rules & Wallet](/adobe-commerce-product-return-rma.html#advanced-configuration-of-product-return-rma)**: Setting up automated approvals, risk thresholds, and store credits.

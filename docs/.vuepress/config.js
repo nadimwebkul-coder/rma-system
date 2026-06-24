@@ -23,6 +23,10 @@ export default defineUserConfig({
         link: '/adobe-commerce-product-return-rma.html',
       },
       {
+        text: 'New Features',
+        link: '/adobe-commerce-product-return-rma-new-features.html',
+      },
+      {
         text: 'Configuration',
         link: '/adobe-commerce-product-return-rma.html#configuration-of-product-return-rma',
       },
@@ -41,6 +45,7 @@ export default defineUserConfig({
         text: 'RMA User Guide',
         children: [
           '/adobe-commerce-product-return-rma.md',
+          '/adobe-commerce-product-return-rma-new-features.md',
         ],
       },
     ],

@@ -45,7 +45,7 @@
 <p>Firstly, you need to log in to the Webkul Store, go to <strong>My Account</strong> &gt; <strong>My Purchased Products</strong> section, verify, and then download and extract the contents of this zip folder on the system.</p>
 <h3 id="_2-upload-folder" tabindex="-1"><a class="header-anchor" href="#_2-upload-folder"><span>#2 Upload Folder</span></a></h3>
 <p>Once the module zip is extracted, follow path <strong>src&gt;app</strong> and then transfer the <strong>app</strong> folder into the <strong>Adobe Commerce Cloud root</strong> directory on the server as shown below:</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/Upload-folder.webp" alt="upload folder"></p>
+<p><img src="/Rmasystem/image/blog/Upload-folder.webp" alt="upload folder"></p>
 <h3 id="_3-run-commands" tabindex="-1"><a class="header-anchor" href="#_3-run-commands"><span>#3 Run Commands</span></a></h3>
 <p>After uploading the module folder, you need to run the following commands in the Magento 2 root directory:</p>
 <div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre v-pre><code><span class="line">php bin/magento setup:upgrade</span>
@@ -61,17 +61,17 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="multilingual-support" tabindex="-1"><a class="header-anchor" href="#multilingual-support"><span>Multilingual Support</span></a></h3>
 <p>For <strong>multilingual</strong> support, the admin will navigate through <strong>Store &gt; Configuration &gt; General &gt; Locale Options</strong> and select the locale as German.</p>
 <p>(the language into which the admin wants to translate his store content).</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-product-return-rma-locale.webp" alt="magento2_rma_system_locale_setting"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-locale.webp" alt="magento2_rma_system_locale_setting"></p>
 <h2 id="translation-in-product-return-rma" tabindex="-1"><a class="header-anchor" href="#translation-in-product-return-rma"><span>Translation in Product Return RMA</span></a></h2>
 <p>If a user wants to translate their module from English to German then they need to follow the path</p>
 <p><strong>app/code/Webkul/Rmasystem/i18n</strong> in their unzipped Adobe Commerce RMA system folder and will get a CSV file with the name “en_US.csv”.</p>
 <p>Now they will rename that CSV as “de_DE.csv” and translate all right side content after the comma in the German language.</p>
 <p>After editing the CSV, save it and then upload it to the path <strong>app/code/Webkul/Rmasystem/i18n</strong> where they have installed Magento2 on the server.</p>
 <p>The module will get translated into the German Language. It supports both <strong>RTL</strong> and <strong>LTR</strong> languages.</p>
-<p><a href="http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/RMA-translation-1.png" target="_blank" rel="noopener noreferrer">![Magento2 Aramex Shipping Translation](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/RMA-translation-1.png)</a><br>
-<a href="http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/RMA-translation-2.png" target="_blank" rel="noopener noreferrer">![Magento2 Aramex Shipping Translation](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/RMA-translation-2.png)</a></p>
+<p><img src="/Rmasystem/image/blog/RMA-translation-1.png" alt="Magento2 Aramex Shipping Translation"><br>
+<img src="/Rmasystem/image/blog/RMA-translation-2.png" alt="Magento2 Aramex Shipping Translation"></p>
 <p>The user can edit the CSV like the image below.<br>
-<a href="http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Translation3.png" target="_blank" rel="noopener noreferrer">![Magento2 Aramex Shipping Translation](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Translation3.png)</a></p>
+<img src="/Rmasystem/image/blog/Translation3.png" alt="Magento2 Aramex Shipping Translation"></p>
 <h2 id="configuration-of-product-return-rma" tabindex="-1"><a class="header-anchor" href="#configuration-of-product-return-rma"><span>Configuration of Product Return RMA</span></a></h2>
 <p>After the successful installation of Magento 2 RMA module admin will be able to view the RMA system configuration setting under <strong>Store &gt; Configuration &gt; Webkul RMA</strong>.</p>
 <p><img src="/Rmasystem/image/system_configuration_1.png" alt="Magento 2 product return rma"></p>
@@ -97,8 +97,7 @@
 <p>Under <code v-pre>RMA System &gt; RMA Advanced Configuration</code>, the admin can configure newly introduced automation, wallet refund, and fraud detection features:</p>
 <h3 id="_1-automated-workflow-configuration" tabindex="-1"><a class="header-anchor" href="#_1-automated-workflow-configuration"><span>1. Automated Workflow Configuration</span></a></h3>
 <p>This setting allows the admin to set up automatic logic gates to authorize returns instantly, saving human verification time.</p>
-<p><img src="/Rmasystem/image/automated_workflow/automated_workflow_1.png" alt="Automated Workflow Configuration General Settings"></p>
-<p><img src="/Rmasystem/image/automated_workflow/automated_workflow_2.png" alt="Automated Workflow Configuration Rules"></p>
+<p><img src="/Rmasystem/image/automated_workflow/automated_workflow.png" alt="Automated Workflow Configuration General Settings"></p>
 <ul>
 <li>
 <p><em><strong>General Rules Settings</strong></em></p>
@@ -193,16 +192,16 @@
 <p><img src="/Rmasystem/image/fraud_detection/fraud_detection_1.png" alt="Fraud Detection Configuration Rules"></p>
 <ul>
 <li>
-<p><strong>Enable Fraud &amp; Risk Scoring</strong>: Turn on return monitoring and risk calculation.</p>
+<p><em><strong>General Rules Settings</strong></em></p>
+<ul>
+<li><strong>Enable Fraud &amp; Risk Scoring</strong>: Turn on return monitoring and risk calculation.</li>
+<li><strong>Risk Threshold (Number of Returns)</strong>: Set the maximum number of returns allowed within a timeframe before flagging.</li>
+<li><strong>Risk Timeframe (Days)</strong>: Rolling period to evaluate return frequencies.</li>
+<li><strong>Exclude RMA Status(es) from Calculation</strong>: Ignore specific statuses (e.g., cancelled or declined requests).</li>
+</ul>
 </li>
 <li>
-<p><strong>Risk Threshold (Number of Returns)</strong>: Set the maximum number of returns allowed within a timeframe before flagging.</p>
-</li>
-<li>
-<p><strong>Risk Timeframe (Days)</strong>: Rolling period to evaluate return frequencies.</p>
-</li>
-<li>
-<p><strong>Exclude RMA Status(es) from Calculation</strong>: Ignore specific statuses (e.g., cancelled or declined requests).</p>
+<p><em><strong>Automated Risk Mitigation Actions</strong></em></p>
 </li>
 <li>
 <p><strong>Require Manual Review for High-Risk Customers</strong>: Instantly route requests from high-risk accounts to admin inspection, bypassing any auto-approval rules.</p>
@@ -224,15 +223,15 @@
 <hr>
 <h3 id="category-restriction-in-product-return-rma" tabindex="-1"><a class="header-anchor" href="#category-restriction-in-product-return-rma"><span>Category Restriction in Product Return RMA</span></a></h3>
 <p>Firstly go to <strong>Catalog &gt; Categories.</strong></p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-catalog-dashboard.webp" alt="Dashboard-Magento-Admin-2"></p>
+<p><img src="/Rmasystem/image/blog/magento2-catalog-dashboard.webp" alt="Dashboard-Magento-Admin-2"></p>
 <p>Here, the admin can restrict the required categories for RMA generation. Henceforth, the customers won’t be able to process an RMA request for the purchased product lying in that category.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-categories.webp" alt="Default-Category-ID-2-Categories-Inventory-Catalog-Magento-Admin"></p>
+<p><img src="/Rmasystem/image/blog/magento2-rma-categories.webp" alt="Default-Category-ID-2-Categories-Inventory-Catalog-Magento-Admin"></p>
 <p>The admin can set the field <strong>Allowed for RMA generation</strong> as <strong>Yes</strong> or <strong>No</strong>.</p>
 <p><strong>Note:</strong> If a parent category is set as not <strong>Allowed for the RMA generation</strong>. As a result, its subcategory’s product will not be allowed for the RMA generation.</p>
 <hr>
 <h2 id="product-return-rma-system-management" tabindex="-1"><a class="header-anchor" href="#product-return-rma-system-management"><span>Product Return RMA System Management</span></a></h2>
 <p>Under the RMA System side panel menu option, the admin will find multiple sub-menu options for the RMA.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-dashboard.webp" alt="Magento 2 RMA menu option"></p>
+<p><img src="/Rmasystem/image/blog/magento2-rma-dashboard.webp" alt="Magento 2 RMA menu option"></p>
 <h3 id="create-rma" tabindex="-1"><a class="header-anchor" href="#create-rma"><span>Create RMA</span></a></h3>
 <p>The admin on behalf of the customers can also create the RMA as required. To do so, tap the Create RMA option, and that brings up the list of complete orders.</p>
 <p><img src="/Rmasystem/image/create_rma_1.png" alt="magento2-rma-create-new-rma."></p>
@@ -267,29 +266,29 @@
 <p><img src="/Rmasystem/image/analytics_dashboard/analytics_dashboard_12.png" alt="Analytics Grid - Monthly trends detailed grid"></p>
 <h3 id="manage-payment-history" tabindex="-1"><a class="header-anchor" href="#manage-payment-history"><span>Manage Payment History</span></a></h3>
 <p>The admin can check the payment history of RMA requests.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-return-rma.webp" alt="Magento 2 Return RMA"></p>
+<p><img src="/Rmasystem/image/blog/magento2-return-rma.webp" alt="Magento 2 Return RMA"></p>
 <h3 id="manage-reasons" tabindex="-1"><a class="header-anchor" href="#manage-reasons"><span>Manage Reasons</span></a></h3>
 <p>Admin can manage RMA reasons under <strong>RMA System &gt; Manage Reason</strong>.</p>
 <p>The admin can see all the RMA reasons in the list and edit the existing RMA reasons. These RMA reasons will be displayed while creating an RMA request.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-6-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-6-1.webp" alt="Magento 2 product return rma"></p>
 <p>Admin can delete or change the status of the RMA Reasons.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-7-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-7-1.webp" alt="Magento 2 product return rma"></p>
 <p>After clicking on the edit/add RMA reason below page will open in which the admin can enter the RMA reason title, and status, position, applicable to and save it.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-8-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-8-1.webp" alt="Magento 2 product return rma"></p>
 <p>RMA reason based on the resolution type.</p>
 <h3 id="manage-shipping-label" tabindex="-1"><a class="header-anchor" href="#manage-shipping-label"><span>Manage Shipping Label</span></a></h3>
 <p>Admin can easily create shipping labels for new and existing orders under <strong>RMA Systems &gt; Manage Shipping Label</strong>. Admin can delete the shipping labels or can change the status of the shipping label.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-0-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-0-1.webp" alt="Magento 2 product return rma"></p>
 <p>On clicking on Shipping Label, the admin can see the preview of that shipping label.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-10-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-10-1.webp" alt="Magento 2 product return rma"></p>
 <p>After clicking “<strong>Add New</strong>” a new page will open where Admin will enter the Title, label image, price, and status.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-9-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-9-1.webp" alt="Magento 2 product return rma"></p>
 <h3 id="manage-rma-custom-fields" tabindex="-1"><a class="header-anchor" href="#manage-rma-custom-fields"><span>Manage RMA Custom Fields</span></a></h3>
 <p>The admin can create customizable fields for the Request New RMA form, please follow <strong>RMA System &gt; Manage RMA Custom Fields</strong>.</p>
 <p>Various types of fields can be created such as – radio button, checkbox, dropdown, text, text area, or multiple select.</p>
 <p>The admin can show or hide the custom fields by changing the status to enabled/disabled from the <strong>Actions</strong> menu.</p>
 <p>The RMA Custom Fields allow the admin to retrieve additional information from the customers.</p>
-<p><a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Magento-2-RMA-Custom-Fields.png" target="_blank" rel="noopener noreferrer">![Magento 2 RMA - Custom Fields](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Magento-2-RMA-Custom-Fields.png)</a></p>
+<p><a href="/Rmasystem/image/blog/Magento-2-RMA-Custom-Fields.png" target="_blank" rel="noopener noreferrer">![Magento 2 RMA - Custom Fields](/Rmasystem/image/blog/Magento-2-RMA-Custom-Fields.png)</a></p>
 <h3 id="add-new-field" tabindex="-1"><a class="header-anchor" href="#add-new-field"><span>Add New Field</span></a></h3>
 <p>To create a new field for the RMA Request Form, please click the ‘<strong>Add New Field</strong>‘ button. After that, the admin needs to provide the following information:</p>
 <p><strong>Field Label</strong> – Enter the name of the custom field that will appear on the front end.</p>
@@ -307,23 +306,23 @@
 <p><strong>Sort Order</strong> – Set the sorting order of this field using 0,1,2,3 etc.</p>
 <p><strong>Value Required</strong> – Select Yes if you want to make this field the required field. The customer will not be able to submit the RMA request unless they fill in this field information.</p>
 <p><strong>Status</strong> – To show this custom field on the front end, select Yes. Otherwise, select No to hide this field.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-12-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-12-1.webp" alt="Magento 2 product return rma"></p>
 <h3 id="rma-status" tabindex="-1"><a class="header-anchor" href="#rma-status"><span>RMA Status</span></a></h3>
 <p>The admin can create and manage RMA status here.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-13-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-13-1.webp" alt="Magento 2 product return rma"></p>
 <p>Click on Create or edit to add or edit RMA status. Enter the title, status, and color accordingly it will be visible to the customers.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-14-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-14-1.webp" alt="Magento 2 product return rma"></p>
 <h3 id="rma-rules" tabindex="-1"><a class="header-anchor" href="#rma-rules"><span>RMA Rules</span></a></h3>
 <p>Now the admin can create the rules for the RMA request for the customers.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/04/magento2-product-return-rma-1-1.webp" alt="Magento 2 product return rma"></p>
+<p><img src="/Rmasystem/image/blog/magento2-product-return-rma-1-1.webp" alt="Magento 2 product return rma"></p>
 <p>Click on <strong>Add a new rule</strong> and create the rule for RMA.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/testdevmage.com_12411_admin_rmasystem_rules_edit_id_1_key_eee69683b46d1ff5cf0cae6424251876c2cddcc6e63adb7aacb684fa1036272f_webkul-store.png" alt="RMA system"></p>
+<p><img src="/Rmasystem/image/blog/testdevmage.com_12411_admin_rmasystem_rules_edit_id_1_key_eee69683b46d1ff5cf0cae6424251876c2cddcc6e63adb7aacb684fa1036272f_webkul-store.png" alt="RMA system"></p>
 <p>Enter the title of the rule, description, status, and default option. The admin can also enter the resolution period time in days for return and exchange.</p>
 <h3 id="create-a-new-rma-request" tabindex="-1"><a class="header-anchor" href="#create-a-new-rma-request"><span>Create a New RMA Request</span></a></h3>
 <p>The customer can navigate the RMA section from My Account. Here the customer can create a new RMA by clicking the ‘<strong>Request New RMA</strong>‘ button.</p>
 <p>The customer can also see all the RMA created and filter them using various options.</p>
 <p><strong>Cancel</strong> – If the customer wants to withdraw the RMA request, the customer can simply click the <strong>Cancel</strong> link and confirm. The RMA request will be canceled.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/testdevmage.com_12411_rmasystem_webkul-store.png" alt="rmasystem_webkul-store"></p>
+<p><img src="/Rmasystem/image/blog/testdevmage.com_12411_rmasystem_webkul-store.png" alt="rmasystem_webkul-store"></p>
 <ol>
 <li>First, select the order for which the RMA request needs to be created.</li>
 <li>Then, the customer needs to select the product(s) with Return Quantity.</li>
@@ -337,10 +336,10 @@
 </ol>
 <p><strong>Note</strong>: The reason will be based on the resolution type for canceled items the reason will be too late delivery or too high price.</p>
 <p>Customers can choose separate resolution types for each product with different reasons.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/testdevmage.com_12411_rmasystem_newrma_index_webkul-store-1.png" alt="rmasystem"></p>
+<p><img src="/Rmasystem/image/blog/testdevmage.com_12411_rmasystem_newrma_index_webkul-store-1.png" alt="rmasystem"></p>
 <p>When clicking on the Create RMA it will open a pop-up where the customer needs to enter a few details.</p>
 <p>Select <strong>Product Delivery Status</strong> as <strong>Delivered</strong> or Not <strong>Delivered</strong>. If the <strong>Delivered</strong> option is selected, the customer needs to choose the <strong>Package Condition</strong> as <strong>Open</strong> or <strong>Packed</strong>.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/testdevmage.com_12411_rmasystem_newrma_index_webkul-store-2.png" alt="rmasystem"></p>
+<p><img src="/Rmasystem/image/blog/testdevmage.com_12411_rmasystem_newrma_index_webkul-store-2.png" alt="rmasystem"></p>
 <p><strong>Additional Information</strong> – The customer can provide some additional information with the RMA request. The custom fields are also visible here.</p>
 <p><strong>Pickup Location</strong> – choose the pickup location in the city or outside the city.</p>
 <p>Option to attach a file (<strong>U****pload images)</strong> with the RMA request.</p>
@@ -367,40 +366,40 @@
 <p>If RMA status is solved then the customer can reopen that RMA.</p>
 <p><strong>Send Attachment</strong> – The customer can send and receive file attachments with the messages.</p>
 <p><strong>RMA History &amp; Conversation</strong> – The customer can view the complete timeline related to the RMA request.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/testdevmage.com_12411_rmasystem_viewrma_index_id_39_webkul-store.png" alt="rmasystem"></p>
+<p><img src="/Rmasystem/image/blog/testdevmage.com_12411_rmasystem_viewrma_index_id_39_webkul-store.png" alt="rmasystem"></p>
 <p>Customers can enter custom messages as well.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/testdevmage.com_12411_rmasystem_viewrma_index_id_39_webkul-store-1.png" alt="rmasystem"></p>
+<p><img src="/Rmasystem/image/blog/testdevmage.com_12411_rmasystem_viewrma_index_id_39_webkul-store-1.png" alt="rmasystem"></p>
 <h3 id="print-shipping-slip" tabindex="-1"><a class="header-anchor" href="#print-shipping-slip"><span>Print Shipping Slip</span></a></h3>
 <p>The print Shipping Label button will be visible only after the admin approves the RMA request for exchange. The customer can then print the shipping label for returning the item.</p>
 <p>After clicking the Print shipping label, the customer will be redirected to the print page.</p>
-<p><a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/print-shipping-slip.png" target="_blank" rel="noopener noreferrer">![print shipping slip](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/print-shipping-slip.png)</a></p>
+<p><a href="/Rmasystem/image/blog/print-shipping-slip.png" target="_blank" rel="noopener noreferrer">![print shipping slip](/Rmasystem/image/blog/print-shipping-slip.png)</a></p>
 <h3 id="guest-login-for-rma" tabindex="-1"><a class="header-anchor" href="#guest-login-for-rma"><span>Guest Login for RMA</span></a></h3>
 <p>Magento 2 order Return extension provides RMA for the guest user also. You just need to click the <strong>RMA Guest Login</strong> link in the footer section.</p>
 <p>After clicking on this link you just need to enter their correct <strong>Order ID</strong> and <strong>Email</strong>.<br>
-<a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/guest-login.png" target="_blank" rel="noopener noreferrer">![Magento 2 Product Return RMA](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/guest-login.png)</a></p>
+<a href="/Rmasystem/image/blog/guest-login.png" target="_blank" rel="noopener noreferrer">![Magento 2 Product Return RMA](/Rmasystem/image/blog/guest-login.png)</a></p>
 <p>Once the guest user enters the detail, they can click the ‘<strong>Request New RMA</strong>‘ button. The rest of the workflow is the same as for the registered customers.</p>
 <p>So, if guest users want to check the status of the RMA, they can use the same email address and order ID to log in.</p>
-<p><a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Screenshot_3-1.png" target="_blank" rel="noopener noreferrer">![RMA Guest Login](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Screenshot_3-1.png)</a></p>
+<p><a href="/Rmasystem/image/blog/Screenshot_3-1.png" target="_blank" rel="noopener noreferrer">![RMA Guest Login](/Rmasystem/image/blog/Screenshot_3-1.png)</a></p>
 <h3 id="new-rma-request" tabindex="-1"><a class="header-anchor" href="#new-rma-request"><span>New RMA Request</span></a></h3>
 <p>The guest user needs to provide the following information and submit the RMA request.</p>
-<p><a href="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Guest-RMA-Form.png" target="_blank" rel="noopener noreferrer">![Guest RMA Form](https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/Guest-RMA-Form.png)</a></p>
+<p><a href="/Rmasystem/image/blog/Guest-RMA-Form.png" target="_blank" rel="noopener noreferrer">![Guest RMA Form](/Rmasystem/image/blog/Guest-RMA-Form.png)</a></p>
 <p>After the generation of the New RMA, the Customer/Guest will receive an Email.</p>
-<p><a href="http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/email.png" target="_blank" rel="noopener noreferrer">![Magento 2 Product Return RMA](http://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/email.png)</a></p>
+<p><img src="/Rmasystem/image/blog/email.png" alt="Magento 2 Product Return RMA"></p>
 <h3 id="manage-all-rma-requests" tabindex="-1"><a class="header-anchor" href="#manage-all-rma-requests"><span>Manage All RMA Requests</span></a></h3>
 <p>The admin can view all RMA requests ( Registered Customer and Guest Users) under <strong>RMA System&gt;Manage All RMA</strong> like the below image.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-requests-1-e1714397250751.webp" alt="rmaa request
+<p><img src="/Rmasystem/image/blog/magento2-rma-requests-1-e1714397250751.webp" alt="rmaa request
 "></p>
 <h3 id="magento-2-rma-request" tabindex="-1"><a class="header-anchor" href="#magento-2-rma-request"><span>magento 2 rma request</span></a></h3>
 <h3 id="manage-rma" tabindex="-1"><a class="header-anchor" href="#manage-rma"><span>Manage RMA</span></a></h3>
 <p>Product Return RMA: Admin can manage all RMA requests by navigating to <strong>RMA System&gt;Manage All RMA&gt;View</strong>.</p>
 <p>After clicking on a particular RMA, the admin will be able to see the whole RMA details generated by the customer. Please view the below screenshot:</p>
 <p>The admin can also assign the <strong>admin user or RMA Manager</strong> from the dropdown.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-details-1-1.webp" alt="update rma system"></p>
+<p><img src="/Rmasystem/image/blog/magento2-rma-details-1-1.webp" alt="update rma system"></p>
 <p>The store owner can add the comment for any individual product before proceeding with the RMA.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-details-2-1.webp" alt="update rma system "></p>
+<p><img src="/Rmasystem/image/blog/magento2-rma-details-2-1.webp" alt="update rma system "></p>
 <p>The admin will first select the refunded item. Then, select the <strong>Status</strong> as <strong>Refund Initiated</strong>, and select <strong>Payment Type</strong> as <strong>Full or Partial</strong>.</p>
 <p>If <strong>Partial Payment</strong> is selected, the admin needs to enter the partial refund amount. Also, select the add to stock option to return the product back in stock.</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2015/12/magento2-rma-conversation-1.webp" alt="rma system conversation
+<p><img src="/Rmasystem/image/blog/magento2-rma-conversation-1.webp" alt="rma system conversation
 "></p>
 <p><strong>Send Attachment</strong> – The admin can send and receive file attachments with the messages</p>
 <p>Click the <strong>Update</strong> button to save the changes in the RMA request.</p>
@@ -430,7 +429,7 @@
 <p>/wp:paragraph</p>
 <p>Current Product Version - 4.0.5</p>
 <p>Supported Framework Version - Magento 2.0.x, 2.1.x, 2.2.x,2.3.x, 2.4.x</p>
-<p><img src="https://cdnblog.webkul.com/blog/wp-content/uploads/2024/11/nirupama-shree.webp" alt="author-thumb"></p>
+<p><img src="/Rmasystem/image/blog/nirupama-shree.webp" alt="author-thumb"></p>
 <p><a href="https://webkul.com/blog/author/nirupama382/" target="_blank" rel="noopener noreferrer">nirupama shree 6 Badges</a></p>
 <ul>
 <li>25 May, 2026 Updated by - Kush Mathur</li>
