@@ -97,8 +97,7 @@
 <p>Under <code v-pre>RMA System &gt; RMA Advanced Configuration</code>, the admin can configure newly introduced automation, wallet refund, and fraud detection features:</p>
 <h3 id="_1-automated-workflow-configuration" tabindex="-1"><a class="header-anchor" href="#_1-automated-workflow-configuration"><span>1. Automated Workflow Configuration</span></a></h3>
 <p>This setting allows the admin to set up automatic logic gates to authorize returns instantly, saving human verification time.</p>
-<p><img src="/Rmasystem/image/automated_workflow/automated_workflow_1.png" alt="Automated Workflow Configuration General Settings"></p>
-<p><img src="/Rmasystem/image/automated_workflow/automated_workflow_2.png" alt="Automated Workflow Configuration Rules"></p>
+<p><img src="/Rmasystem/image/automated_workflow/automated_workflow.png" alt="Automated Workflow Configuration General Settings"></p>
 <ul>
 <li>
 <p><em><strong>General Rules Settings</strong></em></p>
@@ -193,16 +192,16 @@
 <p><img src="/Rmasystem/image/fraud_detection/fraud_detection_1.png" alt="Fraud Detection Configuration Rules"></p>
 <ul>
 <li>
-<p><strong>Enable Fraud &amp; Risk Scoring</strong>: Turn on return monitoring and risk calculation.</p>
+<p><em><strong>General Rules Settings</strong></em></p>
+<ul>
+<li><strong>Enable Fraud &amp; Risk Scoring</strong>: Turn on return monitoring and risk calculation.</li>
+<li><strong>Risk Threshold (Number of Returns)</strong>: Set the maximum number of returns allowed within a timeframe before flagging.</li>
+<li><strong>Risk Timeframe (Days)</strong>: Rolling period to evaluate return frequencies.</li>
+<li><strong>Exclude RMA Status(es) from Calculation</strong>: Ignore specific statuses (e.g., cancelled or declined requests).</li>
+</ul>
 </li>
 <li>
-<p><strong>Risk Threshold (Number of Returns)</strong>: Set the maximum number of returns allowed within a timeframe before flagging.</p>
-</li>
-<li>
-<p><strong>Risk Timeframe (Days)</strong>: Rolling period to evaluate return frequencies.</p>
-</li>
-<li>
-<p><strong>Exclude RMA Status(es) from Calculation</strong>: Ignore specific statuses (e.g., cancelled or declined requests).</p>
+<p><em><strong>Automated Risk Mitigation Actions</strong></em></p>
 </li>
 <li>
 <p><strong>Require Manual Review for High-Risk Customers</strong>: Instantly route requests from high-risk accounts to admin inspection, bypassing any auto-approval rules.</p>

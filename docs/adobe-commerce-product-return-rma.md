@@ -167,9 +167,7 @@ Under `RMA System > RMA Advanced Configuration`, the admin can configure newly i
 
 This setting allows the admin to set up automatic logic gates to authorize returns instantly, saving human verification time.
 
-![Automated Workflow Configuration General Settings](/Rmasystem/image/automated_workflow/automated_workflow_1.png)
-
-![Automated Workflow Configuration Rules](/Rmasystem/image/automated_workflow/automated_workflow_2.png)
+![Automated Workflow Configuration General Settings](/Rmasystem/image/automated_workflow/automated_workflow.png)
 
 - ***General Rules Settings***
 - **Enable Rules Engine**: Master toggle to enable/disable automated processing.
@@ -227,11 +225,13 @@ Configure automated limits to block fraudulent returns and flag high-risk custom
 
 ![Fraud Detection Configuration Rules](/Rmasystem/image/fraud_detection/fraud_detection_1.png)
 
-- **Enable Fraud & Risk Scoring**: Turn on return monitoring and risk calculation.
-- **Risk Threshold (Number of Returns)**: Set the maximum number of returns allowed within a timeframe before flagging.
-- **Risk Timeframe (Days)**: Rolling period to evaluate return frequencies.
-- **Exclude RMA Status(es) from Calculation**: Ignore specific statuses (e.g., cancelled or declined requests).
+- ***General Rules Settings***
+  - **Enable Fraud & Risk Scoring**: Turn on return monitoring and risk calculation.
+  - **Risk Threshold (Number of Returns)**: Set the maximum number of returns allowed within a timeframe before flagging.
+  - **Risk Timeframe (Days)**: Rolling period to evaluate return frequencies.
+  - **Exclude RMA Status(es) from Calculation**: Ignore specific statuses (e.g., cancelled or declined requests).
 
+- ***Automated Risk Mitigation Actions***
 - **Require Manual Review for High-Risk Customers**: Instantly route requests from high-risk accounts to admin inspection, bypassing any auto-approval rules.
 - **Send Email Alert on High-Risk RMA Request**: Notify the store manager when high-risk customer files a return.
 - **Notification Email Address(es)**: Target email list.

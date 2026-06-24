@@ -17,6 +17,7 @@
 <h3 id="getting-started" tabindex="-1"><a class="header-anchor" href="#getting-started"><span>Getting Started</span></a></h3>
 <p>To install, configure, and manage your RMA system, refer to the following documentation sections:</p>
 <ul>
+<li><strong><a href="/adobe-commerce-product-return-rma-new-features.html" target="_blank" rel="noopener noreferrer">New Features</a></strong>: Learn about the newly introduced RMA automation, wallet credit refunds, risk scoring, order cancellation popups, and GraphQL/REST API support.</li>
 <li><strong><a href="/adobe-commerce-product-return-rma.html#installation-of-product-return-rma" target="_blank" rel="noopener noreferrer">Installation Guide</a></strong>: Step-by-step guide to download, upload, and compile the module.</li>
 <li><strong><a href="/adobe-commerce-product-return-rma.html#configuration-of-product-return-rma" target="_blank" rel="noopener noreferrer">System Configuration</a></strong>: Basic settings including allowed products, order statuses, return policies, and email templates.</li>
 <li><strong><a href="/adobe-commerce-product-return-rma.html#advanced-configuration-of-product-return-rma" target="_blank" rel="noopener noreferrer">Advanced Rules &amp; Wallet</a></strong>: Setting up automated approvals, risk thresholds, and store credits.</li>
